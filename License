@@ -1,1 +1,17 @@
 
+**Save karein:** `Ctrl+X` → `Y` → `Enter`
+
+### **STEP 4: Git Setup Aur Push**
+```bash
+# 1. Git configure karein
+git config --global user.name "CyberSameer"
+git config --global user.email "wwssddsw285-alt@github.com"
+
+# 2. Saari files add karein
+git add cyberui.py README.md
+
+# 3. Commit karein
+git commit -m "CyberSameer Termux UI with comments"
+
+# 4. Push karein
+git push origin main
